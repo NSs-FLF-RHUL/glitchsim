@@ -1,5 +1,9 @@
+# To configure your package, you'll need to set some of the fields in this file.
+# We have flagged these with FIXME, so if you CTRL+F you'll find those spots.
+# We've added comments to places where it might not be clear what should replace the placeholder.
+# You can delete these comments (and this long one!) when you're done.
 [project]
-authors = [{ email = "rebecca.mcshane.2025@rhul.ac.uk", name = "Rebecca McShane" }] # full name and email address
+authors = [{ email = "FIXME@rhul.ac.uk", name = "FIXME" }] # full name and email address
 classifiers = [
   "Operating System :: POSIX",
   "Programming Language :: Python :: 3",
@@ -9,15 +13,15 @@ classifiers = [
   "Typing :: Typed",
 ]
 dependencies = []
-description = "Simulates superfluid dynamics on neutron star interiors using the dedalus3 hydrocode" 
+description = "FIXME" # description of what the package provides / does
 dynamic = ["version"]
 keywords = []
 license = "GPL-3.0"
 license-files = ["LICENSE.md"]
-name = "gains" # name of the package. Should match the name of the folder inside src/
+name = "FIXME" # name of the package. Should match the name of the folder inside src/
 readme = "README.md"
 requires-python = ">=3.11"
-urls.homepage = "https://github.com/NSs-FLF-RHUL/gains" 
+urls.homepage = "https://github.com/NSs-FLF-RHUL/FIXME" # replace FIXME with the repository name
 
 [project.optional-dependencies]
 dev = ["build", "mypy", "pre-commit", "ruff", "tox", "twine"]
@@ -36,11 +40,11 @@ requires = ["setuptools", "setuptools-scm"]
 
 [tool.setuptools_scm]
 local_scheme = "no-local-version"
-write_to = "src/gains/_version.py" #
+write_to = "src/FIXME/_version.py" # replace FIXME with the name of the package
 
 [tool.coverage]
 report = { sort = "cover" }
-run = { branch = true, parallel = true, source = ["gains"] }
+run = { branch = true, parallel = true, source = ["FIXME"] } # replace FIXME with the name of the package
 paths.source = ["src", ".tox*/*/lib/python*/site-packages"]
 
 [tool.mypy]
@@ -68,7 +72,7 @@ lint.per-file-ignores = { "tests*" = [
   "S101",   # Use of `assert` detected
 ] }
 lint.select = ["ALL"]
-lint.isort.known-first-party = ["gains"]
+lint.isort.known-first-party = ["FIXME"] # replace FIXME with the name of the package
 lint.mccabe.max-complexity = 18
 lint.pep8-naming.classmethod-decorators = ["classmethod"]
 

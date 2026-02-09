@@ -1,3 +1,4 @@
+# Replace all instances of FIXME in this file with your package name, then delete this line!
 ---
 name: Bug Report
 description: Create a Report to Help us Improve
@@ -19,7 +20,7 @@ body:
         A minimal working example of code to reproduce the unexpected behaviour,
         this will render as `Python` code so no need for backticks.
       value: |-
-        import gains
+        import FIXME
 
         ...
       render: Python
@@ -49,7 +50,7 @@ body:
       description: |-
         Can be found by
         ```sh
-        python -c "import gains; print(gains.__version__)"
+        python -c "import FIXME; print(FIXME.__version__)"
         ```
     validations:
       required: true

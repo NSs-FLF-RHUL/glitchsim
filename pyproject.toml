@@ -1,5 +1,5 @@
 # To configure your package, you'll need to set some of the fields in this file.
-# We have flagged these with FIXME, so if you CTRL+F you'll find those spots.
+# We have flagged these with glitchsim, so if you CTRL+F you'll find those spots.
 # We've added comments to places where it might not be clear what should replace the placeholder.
 # You can delete these comments (and this long one!) when you're done.
 [project]
@@ -21,7 +21,7 @@ license-files = ["LICENSE.md"]
 name = "glitchsim" # name of the package. Should match the name of the folder inside src/
 readme = "README.md"
 requires-python = ">=3.11"
-urls.homepage = "https://github.com/NSs-FLF-RHUL/glitchsim" # replace FIXME with the repository name
+urls.homepage = "https://github.com/NSs-FLF-RHUL/glitchsim" # replace glitchsim with the repository name
 
 [project.optional-dependencies]
 dev = ["build", "mypy", "pre-commit", "ruff", "tox", "twine"]
@@ -40,11 +40,11 @@ requires = ["setuptools", "setuptools-scm"]
 
 [tool.setuptools_scm]
 local_scheme = "no-local-version"
-write_to = "src/glitchsim/_version.py" # replace FIXME with the name of the package
+write_to = "src/glitchsim/_version.py" # replace glitchsim with the name of the package
 
 [tool.coverage]
 report = { sort = "cover" }
-run = { branch = true, parallel = true, source = ["glitchsim"] } # replace FIXME with the name of the package
+run = { branch = true, parallel = true, source = ["glitchsim"] } # replace glitchsim with the name of the package
 paths.source = ["src", ".tox*/*/lib/python*/site-packages"]
 
 [tool.mypy]
@@ -72,7 +72,7 @@ lint.per-file-ignores = { "tests*" = [
   "S101",   # Use of `assert` detected
 ] }
 lint.select = ["ALL"]
-lint.isort.known-first-party = ["glitchsim"] # replace FIXME with the name of the package
+lint.isort.known-first-party = ["glitchsim"] # replace glitchsim with the name of the package
 lint.mccabe.max-complexity = 18
 lint.pep8-naming.classmethod-decorators = ["classmethod"]
 

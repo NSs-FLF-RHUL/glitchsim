@@ -1,5 +1,5 @@
 # To configure your package, you'll need to set some of the fields in this file.
-# We have flagged these with FIXME, so if you CTRL+F you'll find those spots.
+# We have flagged these with glitchsim, so if you CTRL+F you'll find those spots.
 # We've added comments to places where it might not be clear what should replace the placeholder.
 # You can delete these comments (and this long one!) when you're done.
 cff-version: 1.2.0
@@ -22,6 +22,6 @@ authors:
     given-names: "Will"
     email: "william.graham@ucl.ac.uk"
     orcid: "https://orcid.org/0000-0003-0058-263X"  
-repository-code: "https://github.com/NSs-FLF-RHUL/glitchsim" # replace FIXME with the repository name
+repository-code: "https://github.com/NSs-FLF-RHUL/glitchsim" # replace glitchsim with the repository name
 title: "glitchsim" # name of your package
 license: "GPL-3.0"

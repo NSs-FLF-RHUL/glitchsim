@@ -6,10 +6,22 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
 authors:
-  - family-names: "surname"
-    given-names: "forename"
-    email: "f.surname@rhul.ac.uk"
-    orcid: "https://orcid.org/0000-0000-0000-0000" # optional, you can delete this line if you don't have an ORCID
-repository-code: "https://github.com/NSs-FLF-RHUL/FIXME" # replace FIXME with the repository name
-title: "FIXME" # name of your package
+  - family-names: "Gary"
+    given-names: "Liu"
+    email: "Gary.Liu@rhul.ac.uk"
+    orcid: "https://orcid.org/0000-0002-0799-9027"
+  - family-names: "Graber"
+    given-names: "Vanessa"
+    email: "vanessa.graber@rhul.ac.uk"
+    orcid: "https://orcid.org/0000-0002-6558-1681"
+  - family-names: "Christidi"
+    given-names: "Ilektra"
+    email: "ilektra.christidi@ucl.ac.uk"
+    orcid: "https://orcid.org/0000-0002-5045-7987"
+  - family-names: "Graham"
+    given-names: "Will"
+    email: "william.graham@ucl.ac.uk"
+    orcid: "https://orcid.org/0000-0003-0058-263X"  
+repository-code: "https://github.com/NSs-FLF-RHUL/glitchsim" # replace FIXME with the repository name
+title: "glitchsim" # name of your package
 license: "GPL-3.0"

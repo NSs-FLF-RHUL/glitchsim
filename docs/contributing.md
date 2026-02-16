@@ -16,7 +16,7 @@ The gains development workflow follows [github-flow](https://scottchacon.com/201
 
 ```bash
 $ pwd
-/path/to/your/clone/of/gains
+/path/to/your/clone/of/glitchsim
 $ git status
 On branch main
 

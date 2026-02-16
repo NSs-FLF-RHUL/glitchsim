@@ -3,7 +3,7 @@
 # We've added comments to places where it might not be clear what should replace the placeholder.
 # You can delete these comments (and this long one!) when you're done.
 [project]
-authors = [{ email = "Gary.Liu@rhul.ac.uk", name = "Gary Liu" }] # full name and email address
+authors = [{ email = "Gary.Liu@rhul.ac.uk", name = "Gary Liu" }, { email = "Vannesa.Graber@rhul.ac.uk", name = "Vannesa Graber" }] # full name and email address
 classifiers = [
   "Operating System :: POSIX",
   "Programming Language :: Python :: 3",

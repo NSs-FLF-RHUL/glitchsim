@@ -1,4 +1,3 @@
-<!-- Replace all instances of glitchsim in this file with your package name, then delete this line! -->
 # glitchsim
 
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)

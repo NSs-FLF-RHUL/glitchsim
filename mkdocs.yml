@@ -1,13 +1,13 @@
 # To configure your package, you'll need to set some of the fields in this file.
 # We have flagged these with glitchsim, so if you CTRL+F you'll find those spots.
 # We've added comments to places where it might not be clear what should replace the placeholder.
-# You can delete these comments (and this long one!) when you're done.
-site_name: "glitchsim" # typically the package name, but it's the text that appears in the tab when the site is open in a browser
+
+site_name: "glitchsim" 
 site_description: "documentation for glitchsim"
-site_author: "glitchsim" # you!
-copyright: "Copyright © 2026 glitchsim" # your full name (as per the pyproject.toml authors)
-repo_url: "https://github.com/NSs-FLF-RHUL/glitchsim" # replace glitchsim with the repository name
-repo_name: "NSs-FLF-RHUL/glitchsim" # replace glitchsim with the repository name
+site_author: "Gary Liu" 
+copyright: "Copyright © 2026 Gary Liu" 
+repo_url: "https://github.com/NSs-FLF-RHUL/glitchsim" 
+repo_name: "NSs-FLF-RHUL/glitchsim" 
 edit_uri: edit/main/docs/
 
 validation:

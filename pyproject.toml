@@ -1,7 +1,5 @@
 # To configure your package, you'll need to set some of the fields in this file.
-# We have flagged these with glitchsim, so if you CTRL+F you'll find those spots.
-# We've added comments to places where it might not be clear what should replace the placeholder.
-# You can delete these comments (and this long one!) when you're done.
+
 [project]
 authors = [{ email = "Gary.Liu@rhul.ac.uk", name = "Gary Liu" }, { email = "Vannesa.Graber@rhul.ac.uk", name = "Vannesa Graber" }] # full name and email address
 classifiers = [

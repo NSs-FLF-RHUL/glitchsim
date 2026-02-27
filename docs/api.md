@@ -1,2 +1,2 @@
 # API reference
-:::glitchsim
+::: glitchsim

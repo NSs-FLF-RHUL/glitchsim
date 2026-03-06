@@ -1,4 +1,3 @@
-# To configure your package, you'll need to set some of the fields in this file.
 
 [project]
 authors = [{ email = "Gary.Liu@rhul.ac.uk", name = "Gary Liu" }, { email = "Vannesa.Graber@rhul.ac.uk", name = "Vannesa Graber" }] # full name and email address

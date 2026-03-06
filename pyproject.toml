@@ -18,7 +18,7 @@ license-files = ["LICENSE.md"]
 name = "glitchsim" # name of the package. Should match the name of the folder inside src/
 readme = "README.md"
 requires-python = ">=3.11"
-urls.homepage = "https://github.com/NSs-FLF-RHUL/glitchsim" # replace glitchsim with the repository name
+urls.homepage = "https://github.com/NSs-FLF-RHUL/glitchsim"
 
 [project.optional-dependencies]
 dev = ["build", "mypy", "pre-commit", "ruff", "tox", "twine"]

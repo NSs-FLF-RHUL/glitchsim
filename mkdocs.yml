@@ -1,5 +1,4 @@
 # To configure your package, you'll need to set some of the fields in this file.
-# We have flagged these with glitchsim, so if you CTRL+F you'll find those spots.
 # We've added comments to places where it might not be clear what should replace the placeholder.
 
 site_name: "glitchsim" 

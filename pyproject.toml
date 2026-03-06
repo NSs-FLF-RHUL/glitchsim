@@ -37,7 +37,7 @@ requires = ["setuptools", "setuptools-scm"]
 
 [tool.setuptools_scm]
 local_scheme = "no-local-version"
-write_to = "src/glitchsim/_version.py" # replace glitchsim with the name of the package
+write_to = "src/glitchsim/_version.py" 
 
 [tool.coverage]
 report = { sort = "cover" }

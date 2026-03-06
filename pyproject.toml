@@ -41,7 +41,7 @@ write_to = "src/glitchsim/_version.py" # replace glitchsim with the name of the 
 
 [tool.coverage]
 report = { sort = "cover" }
-run = { branch = true, parallel = true, source = ["glitchsim"] } # replace glitchsim with the name of the package
+run = { branch = true, parallel = true, source = ["glitchsim"] }
 paths.source = ["src", ".tox*/*/lib/python*/site-packages"]
 
 [tool.mypy]
